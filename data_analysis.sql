@@ -1,10 +1,3 @@
-select * from departments;
-select * from employees;
-select count(*) from dept_emp;
-select * from dept_manager;
-select count(*) from salaries;
-select * from titles;
-
 
 --Data Analysis
 --1. List the following details of each employee: employee number, last name, first name, sex, and salary.
@@ -12,8 +5,8 @@ select * from titles;
 select emp_no, last_name, first_name, gender as "sex", salary
 from employees
 inner join salaries
-using(emp_no)
-order by emp_no;
+using(emp_no);
+
 
 --2. List first name, last name, and hire date for employees who were hired in 1986.
 
@@ -38,14 +31,14 @@ from employees
 inner join dept_emp
 using (emp_no)
 inner join departments
-using(dept_no)
-order by emp_no;
+using(dept_no);
+
 
 --5. List first name, last name, and sex for employees whose first name is "Hercules" and 
 --last names begin with "B."
 
 
-select first_name, last_name, gender
+select first_name, last_name, gender as "sex"
 from employees
 where first_name = 'Hercules'
 and last_name like 'B%';
@@ -79,18 +72,6 @@ select last_name, count(last_name)
 from employees
 group by last_name
 order by count(last_name) desc;
-
-------BONUS
-
-select * from employees
-inner join dept_emp
-using(emp_no)
-inner join salaries
-using(emp_no)
-where emp_no = 499942
-
-select * from titles
-where emp_no = 499942
 
 
 
