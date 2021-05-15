@@ -14,7 +14,7 @@ The ER diagram:
 Once your database is up and running do the following analysis:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-<img src="https://https://github.com/dmhitt/sql-challenge/blob/main/resources/Query1.png"/>
+<img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/Query1.png"/>
 
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
