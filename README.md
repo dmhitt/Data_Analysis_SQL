@@ -37,3 +37,12 @@ Once your database is up and running do the following analysis:
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/Query8.png"/>
 
+## Bonus
+
+Create a jupyter notebook that connects with Employee database and creates two graphs:
+
+ 1. Create a histogram to visualize the most common salary ranges for employees.
+ <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph1.png"/>
+
+ 2. Create a bar chart of average salary by title.
+ <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph2.png"/>
