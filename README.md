@@ -50,11 +50,11 @@
 
 #### Histogram to visualize the most common salary ranges for employees.
 
-  <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph1.png"/>
+  <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/graph1.png"/>
 
  ####  Bar Chart to visualize the average salary by title.
  
- <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph2.png"/>
+ <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/graph2.png"/>
 
 ### Tools
 * PostgreSQL, Jupyter Notebook, Python, SqlAlchemy, Pandas, Pyplot
