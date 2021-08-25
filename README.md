@@ -1,4 +1,4 @@
-# Data Analysis
+# Data Analysis - SQL
 
 ## Employee Database
 
@@ -9,14 +9,16 @@
 
 ### Data
 * Upload the data from six CSV files into the PostgreSQL database.
+
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/Image1.png"/>
+
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/Image2.png"/>
+
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/Image3.png"/>
 
-### Tools
-* Jupyter Notebook, Python, Pandas, Pyplot, PostgreSQL, SqlAlchemy
 
-### Queries
+
+### Data Analysis
 * Database is up and running and the following analyses were done:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
@@ -45,8 +47,12 @@
 
 ### Graphs
 
-* Histogram:
+#### Histogram
+
   <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph1.png"/>
 
- * Bar Chart:
+ ####  Bar Chart
  <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph2.png"/>
+
+### Tools
+* Jupyter Notebook, Python, Pandas, Pyplot, PostgreSQL, SqlAlchemy
