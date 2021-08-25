@@ -2,13 +2,14 @@
 
 ## Employee Database
 
-### The ER diagram:
+### ER diagram
 
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/ERD.png"/>
 
 
 ### Data
-* Upload the data from six CSV files into the PostgreSQL database.
+* Create the Employee database into PostgreSQL.
+* Upload the data from six CSV files into the database.
 
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/Image1.png"/>
 
@@ -45,13 +46,14 @@
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/query8.png"/>
 
-### Graphs
+### Analysis with Graphs 
 
-#### Histogram
+#### Histogram to visualize the most common salary ranges for employees.
 
   <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph1.png"/>
 
- ####  Bar Chart
+ ####  Bar Chart to visualize the average salary by title.
+ 
  <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/graph2.png"/>
 
 ### Tools
