@@ -1,6 +1,12 @@
 # Data Analysis - SQL
 
 ## Employee Database
+* This is a research project on employees of the corporation from the 1980s and 1990s. All that remains of the database of employees from that period are six CSV files.
+ 
+## Tasks
+* Design and create the employee’s database
+* Import the CSV's into the tables
+* Perform the data analysis
 
 ### ER diagram
 
