@@ -63,4 +63,4 @@
  <img src="https://github.com/dmhitt/sql-challenge/blob/main/resources/images/graph2.png"/>
 
 ### Tools
-* PostgreSQL, Jupyter Notebook, Python, SqlAlchemy, Pandas, Pyplot
+* PostgreSQL, Jupyter Notebook, Python, SQLAlchemy, Pandas, Pyplot
